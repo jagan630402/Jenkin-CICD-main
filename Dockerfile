@@ -1,7 +1,7 @@
 FROM tomcat:9-jre8
 LABEL maintainer="Durga <durgaprasadsetti67@gmail.com>"
 
-EXPOSE 8080
+EXPOSE 8080 
 
 # Remove default Tomcat applications (optional but recommended)
 RUN rm -rf /usr/local/tomcat/webapps/*
